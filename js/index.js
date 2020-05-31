@@ -14,6 +14,7 @@ req.onreadystatechange = function() {
 	}
 	
 	data = JSON.parse(this.responseText);
+	data.Countries = data.Countries.filter((country, i) => i <= 20)
 	
 	var chart = new Chart(ctx, {
 		type : 'bar',
