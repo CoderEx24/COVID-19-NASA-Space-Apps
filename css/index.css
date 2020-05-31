@@ -6,10 +6,10 @@
 }
 
 body {
-  background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.5));
+  background-image: url('/imgs/bg.png');
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: vertical;
   height: 100vh;
 }
 
@@ -58,6 +58,11 @@ header {
   background: #fff !important;
 }
 
+#chart {
+	position: relative;
+	background-color: rgba(255, 255, 255, 1);
+}
+
 #cross-fade {
 	position: relative;
 	
@@ -66,9 +71,10 @@ header {
 #cross-fade img {
 	position: absolute;
 	transition: opacity 0.5s ease-in-out;
-	
 }
 
 #cross-fade img.hidden {
+	width: 50%;
+	height: 50%;
 	opacity: 0;
 }	
