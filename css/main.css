@@ -1,0 +1,39 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: monospace, "Times New Roman";
+	background: #000;
+	color: white
+}
+img{
+	display: inline-block;
+	width: 50vw;
+	height: 50vw;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,0);
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+h4{
+	color: #fcc	;
+	margin-bottom: 30px;
+}
+h3{
+	color: #fbb	;
+	margin: 30px;
+}
+h2{
+	color: #faa	;
+	margin: 30px;
+}
+h1{
+	color: #f99	;
+	margin: 30px;
+}
+p{
+	margin: auto;
+	padding: 20px;
+}
